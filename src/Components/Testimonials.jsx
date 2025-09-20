@@ -86,7 +86,7 @@ export default function Testimonials() {
   };
 
   return (
-    <section className="relative py-20 bg-white">
+    <section id="testimonials" className="relative py-20 bg-white">
       <div className="max-w-4xl mx-auto px-6 lg:px-8">
         
         {/* Section Title */}

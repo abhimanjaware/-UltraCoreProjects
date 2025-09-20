@@ -121,7 +121,7 @@ export default function Footer() {
       </section>
 
       {/* Footer */}
-      <footer ref={footerRef} className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-16 opacity-0 translate-y-10">
+      <footer id="contact" ref={footerRef} className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-16 opacity-0 translate-y-10">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="w-full h-full" style={{

@@ -6,10 +6,10 @@ const Navbar = () => {
   const [hoveredLink, setHoveredLink] = useState(null);
 
   const navLinks = [
-    { name: "Home", to: "#" },
+    { name: "Home", to: "#home" },
     { name: "About", to: "#about" },
-    { name: "Services", to: "#courses" },
-    { name: "Review", to: "#timetable" },
+    { name: "Services", to: "#services" },
+    { name: "Testimonials", to: "#testimonials" },
     { name: "Contact", to: "#contact" },
   ];
 

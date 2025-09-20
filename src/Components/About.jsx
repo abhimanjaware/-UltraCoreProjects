@@ -27,7 +27,7 @@ export default function About() {
   }, []);
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-blue-400 via-blue-500 to-blue-400 py-20 overflow-hidden">
+    <section id="about" className="relative min-h-screen bg-gradient-to-br from-blue-400 via-blue-500 to-blue-400 py-20 overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-72 h-72 bg-blue-200/30 rounded-full blur-3xl animate-pulse" />

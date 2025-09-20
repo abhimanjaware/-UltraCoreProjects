@@ -28,7 +28,7 @@ export default function Hero() {
   }, [images]);
 
   return (
-    <section className="relative min-h-screen w-full flex items-center justify-center text-white overflow-hidden">
+    <section id="home" className="relative min-h-screen w-full flex items-center justify-center text-white overflow-hidden">
       {/* Background Images */}
       <div className="absolute inset-0">
         {images.map((img, i) => (
@@ -92,12 +92,12 @@ export default function Hero() {
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 animate-slide-up" style={{ animationDelay: "0.6s" }}>
-          <button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold py-3 px-6 sm:py-4 sm:px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105 hover:-translate-y-1">
+          <a href="#services" className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold py-3 px-6 sm:py-4 sm:px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105 hover:-translate-y-1">
             View Services
-          </button>
-          <button className="bg-white/10 border-2 border-white/30 text-white font-semibold py-3 px-6 sm:py-4 sm:px-8 rounded-full shadow-lg hover:bg-white/20 hover:border-white/50 transition-all duration-300 hover:scale-105 hover:-translate-y-1">
+          </a>
+          <a href="#contact" className="bg-white/10 border-2 border-white/30 text-white font-semibold py-3 px-6 sm:py-4 sm:px-8 rounded-full shadow-lg hover:bg-white/20 hover:border-white/50 transition-all duration-300 hover:scale-105 hover:-translate-y-1">
             Contact Us
-          </button>
+          </a>
         </div>
       </div>
 
