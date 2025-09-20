@@ -5,11 +5,13 @@ import About from './Components/About'
 import Services from './Components/Services'
 import Footer from './Components/Footer'
 import Testimonials from './Components/Testimonials'
+import WhatsappButton from './WhatsappButton'
 
 
 function App() {
   return (
     <div>
+      <WhatsappButton/>
       <Hero/>
       <Navbar/>
       <About/>
