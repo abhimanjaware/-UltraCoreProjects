@@ -24,7 +24,7 @@ const WhatsappButton = () => {
     >
       <div
         ref={btnRef}
-        className="w-14 h-14 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg flex items-center justify-center transition duration-300 ease-in-out"
+        className="w-20 h-20 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg flex items-center justify-center transition duration-300 ease-in-out"
       >
         <FaWhatsapp size={28} />
       </div>
