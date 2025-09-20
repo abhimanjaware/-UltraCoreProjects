@@ -16,7 +16,7 @@ const WhatsappButton = () => {
 
   return (
     <a
-      href="https://wa.me/919112822015" // Replace with your number
+      href="https://wa.me/919112822015?text=Hello%20UltraCore%20Projects,%20I%20am%20interested%20in%20your%20services%20(Core%20Cutting%20/%20AC%20/%20Industrial%20Solutions).%20Please%20share%20more%20details."
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"
