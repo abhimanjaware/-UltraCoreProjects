@@ -22,7 +22,7 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const isDarkMode = scrolled || menuOpen;
+  const isDarkMode = scrolled || menuOpen; 
 
   return (
     <>
@@ -34,22 +34,23 @@ const Navbar = () => {
         }`}
         style={{ left: "50%", transform: "translateX(-50%)" }}
       >
+        
         <nav className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
           <div className="flex justify-between items-center h-[12vh] min-h-[70px]">
             {/* Logo */}
             <a href="/">
               <div className="flex items-center group">
-                <div className="relative overflow-hidden rounded-2xl p-1 leading-none ">
+                <div className="relative overflow-hidden rounded-2xl  leading-none ">
                   <div className="w-[150px] h-[150px] leading-none ">
                    <img src="/ultracore-logo22.png" alt="Logo" />
-
                   </div>
                 </div>
                 <span
                   className={`ml-3 text-xl lg:text-2xl font-bold transition-all duration-500 ${
                     isDarkMode ? "text-gray-800" : "text-white"
                   } group-hover:text-blue-500`}
-                >                </span>
+                >        
+              </span>
               </div>
             </a>
 
@@ -76,16 +77,6 @@ const Navbar = () => {
               ))}
             </div>
 
-            {/* Desktop CTA */}
-            {/* <div className="hidden md:flex">
-              <a
-                href="#contact"
-                className="relative group overflow-hidden bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-semibold px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
-              >
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
-                <span className="relative z-10">Enroll Now</span>
-              </a>
-            </div> */}
 
             {/* Burger Menu */}
             <div className="md:hidden">
@@ -168,21 +159,6 @@ const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-
-              {/* Mobile CTA */}
-              {/* <div
-                className={`mt-8 ${menuOpen ? "animate-fade-in-up" : ""}`}
-                style={{ animationDelay: "500ms", animationFillMode: "both" }}
-              >
-                <a
-                  href="#enroll"
-                  onClick={() => setMenuOpen(false)}
-                  className="relative group overflow-hidden bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-semibold px-8 py-4 rounded-2xl transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl"
-                >
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
-                  <span className="relative z-10">Enroll Now</span>
-                </a>
-              </div> */}
             </div>
           </div>
         </nav>
