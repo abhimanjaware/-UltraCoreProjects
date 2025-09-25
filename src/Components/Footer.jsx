@@ -29,27 +29,17 @@ export default function Footer() {
       description: "Get immediate assistance",
       action: "tel:9112822015"
     },
-    {
-      icon: "💬",
-      title: "Get a Free Quote",
-      description: "Request estimation",
-      action: "#quote"
-    },
+ 
     {
       icon: "📅",
       title: "Book Your Service",
       description: "Schedule appointment",
-      action: "#booking"
+      action: "https://wa.me/919112822015?text=Hello%20UltraCore%20Projects,%20I%20am%20interested%20in%20your%20services%20(Core%20Cutting%20/%20AC%20/%20Industrial%20Solutions).%20Please%20share%20more%20details."
     },
-    {
-      icon: "🏠",
-      title: "Schedule a Visit",
-      description: "Plan site inspection",
-      action: "#visit"
-    },
+  
     {
       icon: "📧",
-      title: "Contact Us Today",
+      title: "Mail us",
       description: "Send us a message",
       action: "mailto:annasahebansode1@gmail.com"
     }
@@ -87,7 +77,7 @@ export default function Footer() {
               </svg>
             </div>
             <h3 className="text-xl font-bold text-blue-900 mb-2">Find Us Here</h3>
-            <p className="text-blue-800">All Over Pune</p>
+            <p className="text-blue-800">SR. NO. 45/1/3, FLAT NO. 102 SINHGAD DARSHAN, A WING,  DATTA MANDIR, NEAR SINHGAD COLLEGE, VADGAON (BK). PUNE-411041</p>
             <p className="text-blue-700 text-sm mt-2">Available 24 Hours for Emergency Services</p>
           </div>
           
@@ -244,7 +234,7 @@ export default function Footer() {
               </div>
 
               {/* Social Links */}
-              <div className="mt-8">
+              {/* <div className="mt-8">
                 <h5 className="text-white font-semibold mb-4">Connect With Us</h5>
                 <div className="flex space-x-4">
                   <a href="#" className="w-10 h-10 bg-blue-700 hover:bg-blue-600 rounded-full flex items-center justify-center transition-colors duration-300">
@@ -263,18 +253,22 @@ export default function Footer() {
                     </svg>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
           {/* Bottom Footer */}
           <div className="border-t border-blue-700 mt-12 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
-              <p className="text-blue-300 text-sm">
-                © 2024 Ultra Core Projects | All Rights Reserved.
+                          <span className='text-sm md:hidden'>Designed by</span>
+            <a href="https://www.aakaar.digital/">
+
+                <p className="text-blue-300 text-sm">
+                © 2025 Aakaar Digital | All rights reserved.
               </p>
-              <p className="text-blue-400 text-sm mt-4 md:mt-0">
-                Designed with ❤️ for Excellence in Engineering
+            </a>
+              <p className="text-blue-400 text-sm ">
+                Timeless Design Rooted in Aesthetic Intellignece.
               </p>
             </div>
           </div>

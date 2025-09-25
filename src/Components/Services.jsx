@@ -164,9 +164,7 @@ export default function Services() {
                 <p className="text-gray-600 text-lg leading-relaxed mb-6">
                   {services[activeService].description}
                 </p>
-                <button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105 hover:-translate-y-1">
-                  Get Quote
-                </button>
+             
               </div>
               <div className="relative">
                 <img 

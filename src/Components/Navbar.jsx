@@ -39,21 +39,19 @@ const Navbar = () => {
             {/* Logo */}
             <a href="/">
               <div className="flex items-center group">
-                <div className="relative overflow-hidden rounded-2xl p-1 ">
-                  {/* <div className="w-12 h-12 ">
+                <div className="relative overflow-hidden rounded-2xl p-1 leading-none ">
+                  <div className="w-[150px] h-[150px] leading-none ">
                     <img
-                      src="https://www.aakaar.digital/assets/logogogogogo-CbriCbWM.png"
+                      src="public/ultracore-logo22.png"
                       alt="Logo"
                     />
-                  </div> */}
+                  </div>
                 </div>
                 <span
                   className={`ml-3 text-xl lg:text-2xl font-bold transition-all duration-500 ${
                     isDarkMode ? "text-gray-800" : "text-white"
                   } group-hover:text-blue-500`}
-                >
-                  UltraCore Projects
-                </span>
+                >                </span>
               </div>
             </a>
 

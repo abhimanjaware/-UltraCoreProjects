@@ -57,6 +57,7 @@ export default function Hero() {
           ULTRA CORE PROJECTS
         </h1>
 
+
         <p className="text-base sm:text-lg md:text-2xl lg:text-3xl mb-6 sm:mb-8 text-blue-100 font-medium animate-slide-up" style={{ animationDelay: "0.2s" }}>
           Professional Engineering Solutions
         </p>
@@ -69,8 +70,9 @@ export default function Hero() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
               </svg>
             </div>
-            <span className="text-lg sm:text-xl md:text-2xl font-semibold text-white group-hover:text-blue-200 transition-colors duration-300">
-              AC REPAIRING
+         
+              <span className="text-lg sm:text-xl md:text-2xl font-semibold text-white group-hover:text-blue-200 transition-colors duration-300">
+              CORE CUTTING
             </span>
           </div>
 
@@ -84,8 +86,8 @@ export default function Hero() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
               </svg>
             </div>
-            <span className="text-lg sm:text-xl md:text-2xl font-semibold text-white group-hover:text-blue-200 transition-colors duration-300">
-              CORE CUTTING
+             <span className="text-lg sm:text-xl md:text-2xl font-semibold text-white group-hover:text-blue-200 transition-colors duration-300">
+              AC REPAIRING
             </span>
           </div>
         </div>
@@ -95,7 +97,7 @@ export default function Hero() {
           <a href="#services" className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold py-3 px-6 sm:py-4 sm:px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105 hover:-translate-y-1">
             View Services
           </a>
-          <a href="#contact" className="bg-white/10 border-2 border-white/30 text-white font-semibold py-3 px-6 sm:py-4 sm:px-8 rounded-full shadow-lg hover:bg-white/20 hover:border-white/50 transition-all duration-300 hover:scale-105 hover:-translate-y-1">
+          <a href="https://wa.me/919112822015?text=Hello%20UltraCore%20Projects,%20I%20am%20interested%20in%20your%20services%20(Core%20Cutting%20/%20AC%20/%20Industrial%20Solutions).%20Please%20share%20more%20details." className="bg-white/10 border-2 border-white/30 text-white font-semibold py-3 px-6 sm:py-4 sm:px-8 rounded-full shadow-lg hover:bg-white/20 hover:border-white/50 transition-all duration-300 hover:scale-105 hover:-translate-y-1">
             Contact Us
           </a>
         </div>
