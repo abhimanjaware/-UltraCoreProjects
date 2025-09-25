@@ -41,10 +41,8 @@ const Navbar = () => {
               <div className="flex items-center group">
                 <div className="relative overflow-hidden rounded-2xl p-1 leading-none ">
                   <div className="w-[150px] h-[150px] leading-none ">
-                    <img
-                      src="public/ultracore-logo22.png"
-                      alt="Logo"
-                    />
+                   <img src="/ultracore-logo22.png" alt="Logo" />
+
                   </div>
                 </div>
                 <span
