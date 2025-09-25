@@ -54,7 +54,7 @@ export default function Hero() {
       {/* Main Card */}
       <div className="relative z-20 backdrop-blur-md bg-white/10 border border-white/20 shadow-2xl rounded-3xl flex flex-col justify-center text-center w-[92vw] sm:w-[85vw] lg:w-[75vw] max-w-6xl px-4 sm:px-8 md:px-12 py-8 sm:py-12 md:py-16 mt-16 sm:mt-20 animate-fade-in">
         <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight mb-4 sm:mb-6 text-white animate-slide-up">
-          ULTRA CORE PROJECTS
+          ULTRACORE PROJECTS
         </h1>
 
 

@@ -12,7 +12,7 @@ export default function Testimonials() {
       position: "Construction Manager",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
       rating: 5,
-      text: "Ultra Core Projects delivered exceptional core cutting services for our commercial building project. Their precision and attention to detail were outstanding.",
+      text: "UltraCore Projects delivered exceptional core cutting services for our commercial building project. Their precision and attention to detail were outstanding.",
       service: "Core Cutting Services"
     },
     {
@@ -30,7 +30,7 @@ export default function Testimonials() {
       position: "Project Director",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
       rating: 5,
-      text: "Working with Ultra Core Projects has been excellent for our industrial facility. Their core drilling services are precise and they maintain high safety standards.",
+      text: "Working with UltraCore Projects has been excellent for our industrial facility. Their core drilling services are precise and they maintain high safety standards.",
       service: "Industrial Core Drilling"
     },
     {
@@ -39,7 +39,7 @@ export default function Testimonials() {
       position: "Property Owner",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
       rating: 5,
-      text: "Ultra Core Projects helped us with AC repair and maintenance. Their technicians are skilled, punctual, and provided cost-effective solutions.",
+      text: "UltraCore Projects helped us with AC repair and maintenance. Their technicians are skilled, punctual, and provided cost-effective solutions.",
       service: "AC Repair & Maintenance"
     }
   ];

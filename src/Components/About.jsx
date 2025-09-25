@@ -39,7 +39,7 @@ export default function About() {
         {/* Section Title */}
         <div ref={titleRef} className="text-center mb-16 opacity-0 translate-y-10">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
-            About <span className="text-blue-300">Ultra Core Projects</span>
+            About <span className="text-blue-300">UltraCore Projects</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-blue-300 mx-auto mb-6"></div>
           <p className="text-lg md:text-xl text-blue-100 max-w-3xl mx-auto">
